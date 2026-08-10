@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X3N0's Basement</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <div class="badge">Minecraft Server</div>
+    <h1>X3N0's<br>BASEMENT</h1>
+    <p class="tagline">Survival. Builds. Chaos. Come hang out down here.</p>
+
+    <div class="panel">
+      <div class="row">
+        <span>Server IP</span>
+        <code id="ip">x3n0s-server.feathermc.gg</code>
+        <button id="copy">Copy</button>
+      </div>
+      <div class="row">
+        <span>Version</span>
+        <code>26.2</code>
+      </div>
+      <div class="row">
+        <span>Players</span>
+        <code id="players">--</code>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a href="https://discord.gg/KPSGtbgw2" target="_blank" rel="noopener" class="btn">Join the Discord</a>
+      <a href="https://lrs-x3n0.github.io/channel/" target="_blank" rel="noopener" class="btn red">View Our Members Channels</a>
+    </div>
+  </main>
+
+  <canvas id="terrain"></canvas>
+
+  <script src="app.js"></script>
+</body>
+</html>
